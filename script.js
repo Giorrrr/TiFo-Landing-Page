@@ -108,7 +108,7 @@ const observer = new IntersectionObserver(
   { threshold: 0.12 }
 );
 
-document.querySelectorAll('.step, .feature, .price, .stat').forEach((el) => {
+document.querySelectorAll('.section__head, .step, .feature, .price, .stat, .cta__inner').forEach((el) => {
   el.style.opacity = '0';
   el.style.transform = 'translateY(20px)';
   el.style.transition = 'opacity .5s ease, transform .5s ease';
